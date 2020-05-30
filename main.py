@@ -1,4 +1,9 @@
 def palindrom(word):
+    """
+    Prints whether word given as argumet is palidrome or not
+    Argument:
+    word
+    """
     for i in range(len(word)):
         if word[i]==word[-1-i]:
             pass
