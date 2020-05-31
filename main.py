@@ -1,4 +1,4 @@
-def palindrom(word):
+def palindrome(word):
     """
     Prints whether word given as argumet is palidrome or not
     Argument:
@@ -8,7 +8,6 @@ def palindrom(word):
         if word[i]==word[-1-i]:
             pass
         elif word[i]!=word[-i]:
-            print (f"{word} nie jest palindromem")
-            break
+            return False
     else:
-        print (f"{word} jest palindromem")
+        return True
